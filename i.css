@@ -1,0 +1,101 @@
+
+.bg{
+    color:brown;
+    text-align: center;
+size: 30px;
+}
+.text{
+    text-align: center;
+    size: 2px;
+    
+}
+.button{
+    
+    border: solid 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding:16px 32px;
+    color:pink;
+    transition-duration: 0.32s;
+
+}
+.button:hover 
+{
+
+    background-color: black;
+    color: yellow;
+
+
+}
+.bd{
+    border: double sienna 10px;
+    margin: 20px 10px;
+    padding:16px 32px;
+    text-align: center;
+    
+}
+body{
+    background-image: url("./images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  .tet1{
+      size: 30px;
+      color:greenyellow;
+  }
+  col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
